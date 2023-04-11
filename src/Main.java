@@ -1,3 +1,4 @@
+import br.com.dio.desafio.Conteudo;
 import br.com.dio.desafio.Curso;
 import br.com.dio.desafio.Mentoria;
 
@@ -22,6 +23,7 @@ public class Main {
         mentoria1.setTitulo("mentoria java");
         mentoria1.setTitulo("mentoria java");
         mentoria1.setData(LocalDate.now());
+        Conteudo conteudo = new Curso();
 
     }
 }
